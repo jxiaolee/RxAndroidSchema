@@ -1,0 +1,12 @@
+// RxJava
+def RxJavaVersion = '1.2.6'
+
+// RxAndroid
+def RxAndroidVersion = '1.2.1'
+
+ext {
+    dependencies = [
+            libRxJava                  : "io.reactivex:rxjava:${RxJavaVersion}",
+            libRxAndroid               : "io.reactivex:rxandroid:${RxAndroidVersion}"
+    ]
+}
